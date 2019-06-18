@@ -2,10 +2,14 @@ class Post
 
   attr_accessor :title, :author
   
+  @@all = []
+  Post.new 
+  
   def initialize(title)
     @title = title
   
   end
+
 
   def author_name
     if @author == nil
