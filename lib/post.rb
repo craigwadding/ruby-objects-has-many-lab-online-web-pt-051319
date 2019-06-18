@@ -7,7 +7,7 @@ class Post
   
   def initialize(title)
     @title = title
-  puts self 
+  puts self.title 
   end
 
 
